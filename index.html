@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#bio">Your Name</a>
+      <a class="brand" href="#bio">Louis Raj Khullar Godtfredsen</a>
       <nav class="tabs" aria-label="Primary">
         <a class="tab" href="#bio" data-tab="bio">Bio</a>
         <a class="tab" href="#cv" data-tab="cv">CV</a>
@@ -28,25 +28,24 @@
     <section id="bio" class="panel" aria-labelledby="bio-title">
       <div class="bio-grid">
         <div class="bio-photo" aria-hidden="true">
-          <!-- Replace with: <img src="assets/photo.jpg" alt="Your Name" /> -->
-          <span>Photo</span>
+          <img src="assets/IMG_8919.jpeg" alt="Your Name">
         </div>
         <div class="bio-text">
-          <h1 id="bio-title">Hi, I'm <span class="accent">Your Name</span></h1>
-          <p class="lead">A short tagline — what you do and what you care about.</p>
+          <h1 id="bio-title">Hi, I'm <span class="accent">Louis</span>!</h1>
+          <p class="lead">Currently a Data Analyst at Rystad Energy interested in Energy, HPC and SciML!</p>
           <p>
-            Write a couple of paragraphs about yourself here: your background,
-            your interests, and what you're working on right now. Keep it warm
-            and concrete.
-          </p>
-          <p>
-            Mention the kind of work you're looking for, or the problems you
-            like to solve.
+            I am interested in a number of different areas. 
+            Most notably are scientific computing, ML applied to scientific problems (primarily physics) and energy markets!
+            For the aforementioned topics, what really get's me going is answering "why" results and theory works the way it does!
+            This often leads me down a rabbit hole which I, if I am to be honest, do not usually entirely understand.
+            I am also an avid fan of history and politics (obsessive listener to The Rest Is Politics, The Rest is History and Empire).
+            My current role as a data anlyst with Rystad Energy is focused on collecting, cleaning and modelling various energy markets from the "asset level" up.
+            This involves a mix of market research, scraping, designing data pipelines and implementing agents to perform tasks autonomously.
           </p>
           <div class="links">
-            <a class="btn" href="mailto:you@example.com">Email</a>
+            <a class="btn" href="mailto:louis.godtfredsen@gmail.com">Email</a>
             <a class="btn ghost" href="https://github.com/shazakam" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/louis-godtfredsen/" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
       </div>
@@ -62,34 +61,53 @@
       <h2 class="section-label">Experience</h2>
       <div class="entry">
         <div class="entry-head">
-          <h3>Job Title</h3>
-          <span class="meta">Company · 2023 — Present</span>
+          <h3>Junior Data Analyst</h3>
+          <span class="meta">Rystad Energy · 2025 — Present</span>
         </div>
         <p>What you did, the impact you had, and the tools you used.</p>
       </div>
+
       <div class="entry">
         <div class="entry-head">
-          <h3>Previous Role</h3>
-          <span class="meta">Company · 2021 — 2023</span>
+          <h3>Intern Data Scientist</h3>
+          <span class="meta">SLB · 2023 — 2024</span>
         </div>
         <p>A line or two on responsibilities and achievements.</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Undergraduate Researcher</h3>
+          <span class="meta">University of Bath · 2022 — 2022</span>
+        </div>
+        <p></p>
       </div>
 
       <h2 class="section-label">Education</h2>
       <div class="entry">
         <div class="entry-head">
-          <h3>Degree, Field</h3>
-          <span class="meta">University · 2017 — 2021</span>
+          <h3>MComp, Computer Science and Mathematics</h3>
+          <span class="meta">University of Bath · 2020 — 2025</span>
         </div>
-        <p>Notable coursework, thesis, or honours.</p>
+        <p>Final Grade: 1st Class Honours</p>
+        <p>Thesis: "Protein Dimensionaltiy Reduction with Auto-Encoders"</p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <h3>IB Diploma</h3>
+          <span class="meta">Oslo International School · 2020 — 2025</span>
+        </div>
+        <p></p>
       </div>
 
       <h2 class="section-label">Skills</h2>
       <ul class="chips">
+        <li>Fortran90</li>
         <li>Python</li>
-        <li>JavaScript</li>
         <li>SQL</li>
-        <li>Machine Learning</li>
+        <li>Machine Learning Stack: PyTorch, WandB, Lightning, Pandas, Numpy, Matplotlib, SciPy, HuggingFace</li>
+        <li>LLM Related libraries: Pydantic, LangGraph / LangChain, OpenAI SDK</li>
         <li>Git</li>
       </ul>
     </section>
@@ -101,10 +119,10 @@
       </div>
       <div class="cards">
         <article class="card">
-          <h3>Project One</h3>
-          <p>A short description of the project, the problem it solves, and your role.</p>
+          <h3>Physics ML</h3>
+          <p>A project implementing Diffusion, DeepONet and Fourier Neural Operators trained on simulated data (done with Finite Difference methods).</p>
           <div class="card-tags">
-            <span>Python</span><span>API</span>
+            <span>Python</span><span>WandB</span><span>PyTorch</span>
           </div>
           <div class="card-links">
             <a href="#" target="_blank" rel="noopener">Code</a>
@@ -112,20 +130,20 @@
           </div>
         </article>
         <article class="card">
-          <h3>Project Two</h3>
-          <p>A short description of the project, the problem it solves, and your role.</p>
+          <h3>Parallel 2D Gray-Scott Diffusion</h3>
+          <p>Implementation of a parallel solver in Fortran90 using Strang-splitting.</p>
           <div class="card-tags">
-            <span>React</span><span>TypeScript</span>
+            <span>Fortran90</span><span>Slurm</span>
           </div>
           <div class="card-links">
             <a href="#" target="_blank" rel="noopener">Code</a>
           </div>
         </article>
         <article class="card">
-          <h3>Project Three</h3>
-          <p>A short description of the project, the problem it solves, and your role.</p>
+          <h3>UNet Image Segmentaion</h3>
+          <p>Simple image segmentation project trained on the OxfordIIIPet Dataset.</p>
           <div class="card-tags">
-            <span>Data</span><span>Viz</span>
+            <span>Python</span><span>Torch</span><span>Matplotlib</span><span>WandB</span><span>TorchVision</span>
           </div>
           <div class="card-links">
             <a href="#" target="_blank" rel="noopener">Code</a>
@@ -137,7 +155,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Your Name. Built with plain HTML, CSS &amp; JS.</p>
+      <p>© <span id="year"></span> Louis Raj Khullar Godtfredsen. Built with plain HTML, CSS &amp; JS.</p>
     </div>
   </footer>
 
