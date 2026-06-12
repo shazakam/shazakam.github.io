@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louis Raj Khullar Godtfredsen</title>
+  <meta name="description" content="Portfolio, CV and projects of Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#bio">Your Name</a>
+      <nav class="tabs" aria-label="Primary">
+        <a class="tab" href="#bio" data-tab="bio">Bio</a>
+        <a class="tab" href="#cv" data-tab="cv">CV</a>
+        <a class="tab" href="#projects" data-tab="projects">Projects</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ───────────────────────── BIO ───────────────────────── -->
+    <section id="bio" class="panel" aria-labelledby="bio-title">
+      <div class="bio-grid">
+        <div class="bio-photo" aria-hidden="true">
+          <!-- Replace with: <img src="assets/photo.jpg" alt="Your Name" /> -->
+          <span>Photo</span>
+        </div>
+        <div class="bio-text">
+          <h1 id="bio-title">Hi, I'm <span class="accent">Your Name</span></h1>
+          <p class="lead">A short tagline — what you do and what you care about.</p>
+          <p>
+            Write a couple of paragraphs about yourself here: your background,
+            your interests, and what you're working on right now. Keep it warm
+            and concrete.
+          </p>
+          <p>
+            Mention the kind of work you're looking for, or the problems you
+            like to solve.
+          </p>
+          <div class="links">
+            <a class="btn" href="mailto:you@example.com">Email</a>
+            <a class="btn ghost" href="https://github.com/shazakam" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── CV ───────────────────────── -->
+    <section id="cv" class="panel" aria-labelledby="cv-title" hidden>
+      <div class="panel-head">
+        <h1 id="cv-title">Curriculum Vitae</h1>
+        <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener">Download PDF</a>
+      </div>
+
+      <h2 class="section-label">Experience</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Job Title</h3>
+          <span class="meta">Company · 2023 — Present</span>
+        </div>
+        <p>What you did, the impact you had, and the tools you used.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Previous Role</h3>
+          <span class="meta">Company · 2021 — 2023</span>
+        </div>
+        <p>A line or two on responsibilities and achievements.</p>
+      </div>
+
+      <h2 class="section-label">Education</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Degree, Field</h3>
+          <span class="meta">University · 2017 — 2021</span>
+        </div>
+        <p>Notable coursework, thesis, or honours.</p>
+      </div>
+
+      <h2 class="section-label">Skills</h2>
+      <ul class="chips">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>Machine Learning</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <!-- ─────────────────────── PROJECTS ─────────────────────── -->
+    <section id="projects" class="panel" aria-labelledby="projects-title" hidden>
+      <div class="panel-head">
+        <h1 id="projects-title">Projects</h1>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>A short description of the project, the problem it solves, and your role.</p>
+          <div class="card-tags">
+            <span>Python</span><span>API</span>
+          </div>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Code</a>
+            <a href="#" target="_blank" rel="noopener">Demo</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>A short description of the project, the problem it solves, and your role.</p>
+          <div class="card-tags">
+            <span>React</span><span>TypeScript</span>
+          </div>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>A short description of the project, the problem it solves, and your role.</p>
+          <div class="card-tags">
+            <span>Data</span><span>Viz</span>
+          </div>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. Built with plain HTML, CSS &amp; JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
